@@ -1,0 +1,7 @@
+select * from login;
+alter table login add accesslevel varchar(1); 
+update login set accesslevel='1' where role='SuperAdmin';
+update login set accesslevel='2' where role='Admin';
+alter table admin modify address null;
+desc admin;
+

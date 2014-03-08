@@ -1,0 +1,71 @@
+Result table:
+
+create table result1(
+testid varchar(20),
+studentid varchar(20),
+score varchar(20),
+schoolid varchar(20),
+average varchar(20),
+constraint pk primary key(testid,studentid)
+);
+
+
+Award creation table:
+
+create table award(
+awardid varchar(20) primary key ,
+type varchar(20),
+awardname varchar(20),
+awardamt varchar(20),
+reasonforaward varchar(255),
+awarddetails varchar(100),
+low varchar(20),
+high varchar(20)
+);
+
+Award allocation to student:
+
+create table awardstudent(
+testid varchar(20),
+studentid varchar(20),
+awardid varchar(20),
+schoolid varchar(20),
+awardname varchar(20),
+constraint pk1 primary key(testid,studentid)
+);
+
+
+Award allocation to school:
+
+create table awardschool(
+testid varchar(10),
+awardid varchar(10),
+schoolid varchar(10),
+awardname varchar(10),
+constraint pk2 primary key(testid,schoolid)
+);
+
+select * from question;
+select * from testquestion;
+select * from testteacher;
+select * from teststudent;
+select * from testresult;
+select * from result1;
+
+select question.answer,testresult.capturedanswer from question,testresult,test where test.testid='ts01'and test.questionid=question.questionid and testresult.questionid=question.questionid and testresult.studentid='st01'
+
+select question.answer,testresult.capturedanswer from question,testresult where testresult.testid='ts01' and testresult.studentid='st01' and testresult.questionid=question.questionid;
+
+update question set answer='emran' where questionid='oq01';
+update question set answer='Chennai' where questionid='oq02';
+update question set answer='csk' where questionid='oq03';
+
+insert into question values('oq04','q4','english','a','b','c','d','a');
+insert into question values('oq05','q5','english','a','b','c','d','b');
+insert into question values('oq06','q6','english','a','b','c','d','c');
+insert into question values('oq07','q7','english','a','b','c','d','d');
+insert into question values('oq08','q8','english','a','b','c','d','a');
+insert into question values('oq09','q9','english','a','b','c','d','b');
+insert into question values('oq10','q10','english','a','b','c','d','c');
+
+desc result1;

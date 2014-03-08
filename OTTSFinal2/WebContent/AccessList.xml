@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<accesslist>	
+	<page>
+		<url>DeleteAdmin.jsp</url>
+		<level>1</level>
+	</page>
+	<page>
+		<url>DeleteSchool.jsp</url>
+		<level>2</level>
+	</page>
+		<page>
+		<url>DeleteStudent.jsp</url>
+		<level>3</level>
+	</page>
+	<page>
+		<url>DeleteTeacher.jsp</url>
+		<level>2</level>
+	</page>
+	
+	<page>
+		<url>RegisterAdmin.jsp</url>
+		<level>1</level>
+	</page>
+	<page>
+		<url>RegisterSchool.jsp</url>
+		<level>2</level>
+	</page>
+		<page>
+		<url>RegisterStudent.jsp</url>
+		<level>3</level>
+	</page>
+	<page>
+		<url>RegisterTeacher.jsp</url>
+		<level>2</level>
+	</page>
+	
+	<page>
+		<url>UpdateAdmin.jsp</url>
+		<level>1</level>
+	</page>
+	<page>
+		<url>UpdateSchool.jsp</url>
+		<level>2</level>
+	</page>
+		<page>
+		<url>UpdateStudent.jsp</url>
+		<level>3</level>
+	</page>
+	<page>
+		<url>UpdateTeacher.jsp</url>
+		<level>2</level>
+	</page>
+	
+	<page>
+		<url>ViewAdmin.jsp</url>
+		<level>1</level>
+	</page>
+	<page>
+		<url>ViewSchool.jsp</url>
+		<level>2</level>
+	</page>
+		<page>
+		<url>ViewStudent.jsp</url>
+		<level>3</level>
+	</page>
+	<page>
+		<url>ViewTeacher.jsp</url>
+		<level>2</level>
+	</page>
+	
+	<page>
+		<url>AdminCrudLinks.jsp</url>
+		<level>1</level>
+	</page>
+	<page>
+		<url>SchoolCrudLinks.jsp</url>
+		<level>2</level>
+	</page>
+		<page>
+		<url>StudentCrudLinks.jsp</url>
+		<level>3</level>
+	</page>
+	<page>
+		<url>TeacherCrudLinks.jsp</url>
+		<level>2</level>
+	</page>
+	
+	
+	<page>
+		<url>ManageAdmin.jsp</url>
+		<level>1</level>
+	</page>
+	<page>
+		<url>ManageSchool.jsp</url>
+		<level>2</level>
+	</page>
+		<page>
+		<url>ManageStudent.jsp</url>
+		<level>3</level>
+	</page>
+	<page>
+		<url>ManageTeacher.jsp</url>
+		<level>2</level>
+	</page>
+	
+	<page>
+		<url>AdminProfilePage.jsp</url>
+		<level>2</level>
+	</page>
+	<page>
+		<url>ChangePassword.jsp</url>
+		<level>2</level>
+	</page>
+		<page>
+		<url>ForgotPassword.jsp</url>
+		<level>3</level>
+	</page>
+	<page>
+		<url>TeacherProfilePage.jsp</url>
+		<level>3</level>
+	</page>
+	
+	<page>
+		<url>SuperAdmin.jsp</url>
+		<level>1</level>
+	</page>
+	<page>
+		<url>Admin.jsp</url>
+		<level>2</level>
+	</page>
+		<page>
+		<url>Teacher.jsp</url>
+		<level>3</level>
+	</page>
+	<page>
+		<url>Student.jsp</url>
+		<level>4</level>
+	</page>
+	
+
+	<page>
+		<url>Logout.java</url>
+		<level>5</level>
+	</page>
+	<page>
+		<url>MainController</url>
+		<level>3</level>
+	</page>
+	
+	<page>
+		<url>ManageAdminServlet</url>
+		<level>1</level>
+	</page>
+	<page>
+		<url>ManageTeacherServlet</url>
+		<level>2</level>
+	</page>
+	
+	<page>
+		<url>ManageStudentServlet</url>
+		<level>3</level>
+	</page>
+	<page>
+		<url>ManageSchoolServlet</url>
+		<level>2</level>
+	</page>
+	
+	<page>
+		<url>AdminDao</url>
+		<level>1</level>
+	</page>
+	<page>
+		<url>SchoolDao</url>
+		<level>2</level>
+	</page>
+	
+	<page>
+		<url>StudentDao</url>
+		<level>3</level>
+	</page>
+	<page>
+		<url>TeacherDao</url>
+		<level>2</level>
+	</page>
+	
+	<page>
+		<url>GRSCaptchaServlet</url>
+		<level>3</level>
+	</page>
+	
+
+</accesslist>

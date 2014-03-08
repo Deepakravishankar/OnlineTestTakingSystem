@@ -1,0 +1,21 @@
+test:
+create table test(testid varchar2(10),testname varchar2(50),duration float(126),category varchar2(10),noofstudents number(38));
+
+testquestion:y
+create table testquestion(testid varchar2(10),questionid varchar2(10));
+
+
+testteacher:y
+create table testteacher(testid varchar2(10),teacherid varchar2(10));
+
+
+teststudent:y
+create table teststudent(testid varchar2(10),studentid varchar2(10));
+
+
+testresult:y
+create table testresult(testid varchar2(10),studentid varchar2(10), questionid varchar(10),capturedanswer varchar2(100));
+
+
+question:y
+create table question(questionid varchar2(10),question varchar2(200),category varchar2(20),option1 varchar2(100),option2 varchar2(100),option3 varchar2(100),option4 varchar2(100),answer varchar2(100));

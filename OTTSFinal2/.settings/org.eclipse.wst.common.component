@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="OTTSFinal2">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="itextpdf-5.3.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/itextpdf-5.3.4/itextpdf-5.3.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.2.16.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/log4j-1.2.16/log4j-1.2.16">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="classes12.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/classes12/classes12">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="OTTSFinal2"/>
+        <property name="java-output-path" value="/OTTSFinal2/build/classes"/>
+    </wb-module>
+</project-modules>

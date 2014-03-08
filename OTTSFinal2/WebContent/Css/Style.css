@@ -1,0 +1,33 @@
+.error{
+	color:red;
+	
+	}
+	
+.sidebar{
+	
+	float:left;
+	padding-top:25px;
+	padding-bottom:25px;
+	padding-right:50px;
+	padding-left:50px;
+	border-right-style:solid;
+	border-width:2px;
+	}
+	
+.body{
+	float:left;
+	padding-top:25px;
+	padding-left:10px;
+	}
+	
+.header{
+	position:absolute;
+	right:0px;
+	width:300px;
+	}	
+	
+.left{
+	position:absolute;
+	left:0px;
+	width:300px;
+	}
